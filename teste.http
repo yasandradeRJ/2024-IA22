@@ -1,0 +1,8 @@
+POST https://refactored-rotary-phone-97976p4xj7g3p9gj-3333.app.github.dev/users HTTP/1.1
+Content-Type: application/json
+Authorization: token xxx
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
