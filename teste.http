@@ -1,4 +1,4 @@
-POST https://refactored-rotary-phone-97976p4xj7g3p9gj-3333.app.github.dev/users HTTP/1.1
+POST https://curly-lamp-wp7w9q4jv4939qrv-3333.app.github.dev/users HTTP/1.1
 Content-Type: application/json
 Authorization: token xxx
 
@@ -6,3 +6,18 @@ Authorization: token xxx
   "name": "John Doe",
   "email": "john@example.com"
 }
+####
+
+PUT  (https://curly-lamp-wp7w9q4jv4939qrv-3333.app.github.dev/users) HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "John Doe update",
+  "email": "john@example.com"
+}
+
+####
+
+DELETE  (https://curly-lamp-wp7w9q4jv4939qrv-3333.app.github.dev/users) HTTP/1.1
+
+
