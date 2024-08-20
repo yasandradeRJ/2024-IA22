@@ -278,13 +278,13 @@ Dentro deste arquivo coloque o código:
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
-  <title>Grey's Anatomy</title>
+  <title>Saudações Rubro Negra</title>
 </head>
 
 <body>
   <div class="container">
-    <h1>Grey's Anatomy</h1>
-    <h3>Petição contra o fim da série</h3>
+    <h1>Clube de Regatas do Flamengo</h1>
+    <h3>Faça parte da nossa nação! Seja um sócio!</h3>
 
     <form>
       <input type="text" name="name" placeholder="Nome" required>
@@ -390,7 +390,7 @@ html, body {
   }
   
   body {
-    background-image: url(https://raw.githubusercontent.com/Edson-Edu/2024-IA22-2TRI/main/public/seattle.jpg);
+    background-image: url(https://github.com/yasandradeRJ/2024-IA22/blob/main/public/flamengo.jpg?raw=true);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -489,6 +489,8 @@ html, body {
   table button.editar:hover {
     background-color: #218838;
   }
+  
+  
   
 ````
 # Mudando novamente o *app.ts*
